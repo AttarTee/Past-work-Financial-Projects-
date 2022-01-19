@@ -26,7 +26,7 @@ by Alexandros Taderera
 >  I use modelling techniques of [*"A Semiparametric Graphical Modelling Approach For Large-Scale Equity Selection"*](https://doi.org/10.1080/14697688.2015.1101149) by Liu, Mulvey, Zhao [2015]. I take a universe of assets and create a "Risk Network" of the latent risk-factors in our given universe- advantageous for TFSA investing since the universe is well-defined. A cluster defines assets linked to similar latent factors. I identified four dominant risk-clusters: SA Property, SA Equities, Developed Market Equities, and Modified SA Equities (Islamic banking and inflation protection on SA Equities). 
 <br /> 
 <br /> 
-The assets that are in clusters of one are considered "risk-independent". They are the most orthogonal to our systematic risk-factors and thus are easy pickings for anyone looking for instant diversification.
+>The assets that are in clusters of one are considered "risk-independent". They are the most orthogonal to our systematic risk-factors and thus are easy pickings for anyone looking for instant diversification.
 <br /> 
 
 
@@ -39,7 +39,7 @@ The assets that are in clusters of one are considered "risk-independent". They a
 ###### SHORTCOMINGS:
 >Data, Data, Data. 
 <br /> 
-Large "pops" in price data add fat tails to any distribution and heavily skew the results of any parametric modelling methods. This does not affect the graphical model's performance, but rather the means and standard deviation estimates are corrupted. I attempted to stay away from any methods that required expected returns, volatility or covariance wherever possible and thus constructed equally weighted portfolios after the graphical model stage however, the outliers still skewed a lot of the findings
+>Large "pops" in price data add fat tails to any distribution and heavily skew the results of any parametric modelling methods. This does not affect the graphical model's performance, but rather the means and standard deviation estimates are corrupted. I attempted to stay away from any methods that required expected returns, volatility or covariance wherever possible and thus constructed equally weighted portfolios after the graphical model stage however, the outliers still skewed a lot of the findings
 
 
 ### Steps:
