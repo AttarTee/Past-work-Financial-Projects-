@@ -31,7 +31,7 @@ by Alexandros Taderera
 
 ###### RESULTS AND INTERPRETATION: 
 >How do these assets affect a porfolio they are added to?
-<br /> 
+
 >My initial hypothesis was that this method would reduce portfolio performance, but improve risk-adjusted performance. Instead I found a marginal improvement (30 basis points) in performance and significant improvement (10%) in the Sharpe Ratio distribution. Furthermore, the treated (containing a risk-independent asset) portfolios had improved downside-risk performance metrics.
 <br /> 
 
