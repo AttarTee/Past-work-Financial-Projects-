@@ -32,8 +32,9 @@ by Alexandros Taderera
 <br /> 
 
 ###### SHORTCOMINGS:
->Data, Data, Data. 
+> Data, Data, Data. 
 <br /> 
+
 > Large "pops" in price data add fat tails to any distribution and heavily skew the results of any parametric modelling methods. This does not affect the graphical model's performance, but rather the means and standard deviation estimates are corrupted. I attempted to stay away from any methods that required expected returns, volatility or covariance wherever possible and thus constructed equally weighted portfolios after the graphical model stage however, the outliers still skewed a lot of the findings
 
 
